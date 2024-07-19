@@ -174,3 +174,16 @@ protocol SomeProtocol {
     init(someParameter: Int)
 }
 ```
+
+## Class Implementations of Protocol Initializer Requirements
+You can implement a protocol intializer on a conforming class as either a designated or a convenience initializer. In both cases, you must mark the initializer implementation with the required modifier:
+
+```Swift
+class SomeClass: SomeProtocol {
+    required init(someParameter: Int) {
+        // initializer implementation goes here
+    }
+}
+```
+
+The use of the required modifier ensures that you provide an explicit or inherited implementation of the initializer requirements on all subclasses of the conforming class, such that they also conform to the protocol.
