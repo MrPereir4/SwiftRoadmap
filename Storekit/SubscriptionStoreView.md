@@ -101,7 +101,7 @@ struct ContentView: View {
 }
 ```
 
-** Use Cases
+## Use Cases
 To handle the user interaction with the options for subscription available, we can use the _onInAppPurchaseCompletion_. This returns a object _Product_ and _Result_ right after the users confirm the subscription purchase.
 
 ```swift
