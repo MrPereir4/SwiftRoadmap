@@ -9,3 +9,9 @@ A structured guide for mastering Swift programming, from basic concepts to advan
 
 ## Tests
 * [Unit Tests Basic](https://github.com/MrPereir4/SwiftRoadmap/blob/main/Tests/UnitTests/UnitTestsBasic.md)
+
+## StoreKit
+* [SubscriptionStoreView](https://github.com/MrPereir4/SwiftRoadmap/blob/main/Storekit/SubscriptionStoreView.md)
+
+## Reactive Programming
+* [Combine](https://github.com/MrPereir4/SwiftRoadmap/blob/main/ReactiveProgramming/combine.md)
