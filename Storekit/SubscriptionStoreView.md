@@ -101,6 +101,21 @@ struct ContentView: View {
 }
 ```
 
+** Use Cases
+To handle the user interaction with the options for subscription available, we can use the _onInAppPurchaseCompletion_. This returns a object _Product_ and _Result_ right after the users confirm the subscription purchase.
+
+```swift
+struct ContentView: View {
+    var body: some View {
+        SubscriptionStoreView(groupID: "598392E1", visibleRelationships: .all)
+            .onInAppPurchaseCompletion { product, result in
+                //Handles the purchase completion
+            }
+    }
+}
+
+```
+
 References:
 
 https://swiftwithmajid.com/2023/08/23/mastering-storekit2-subscriptionstoreview-in-swiftui/
